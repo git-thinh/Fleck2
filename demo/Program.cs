@@ -12,7 +12,7 @@ namespace Fleck2.Demo
         {
             string ip = "127.0.0.1";
             int port_api = 80;
-			string pathway = "";
+            string pathway = "";
 
 			Console.WriteLine(
 				"Usage:\n"+
@@ -76,7 +76,7 @@ namespace Fleck2.Demo
                 };
             });
 
-            Process.Start("client.html");
+            //Process.Start("client.html");
 
             var input = Console.ReadLine();
             while (input != "exit")
